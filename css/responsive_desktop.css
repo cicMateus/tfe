@@ -1,0 +1,417 @@
+
+@media screen and (max-width: 1200px){
+	#compte{
+		width: 100%;
+	}
+
+	#compte section {
+
+	  margin-right: 100px;
+	  margin-left: 30px;
+
+	}
+}
+
+@media screen and (max-width: 1024px){
+
+	#menu{
+		display: block;
+	}
+
+	
+
+	#main-nav {
+		padding: 5px 5px 5px 100%;
+		top: 50%;
+  		opacity: 0;
+		width: 55%;
+		right: 0;
+		display: none;
+		background: #f05555;
+		-webkit-transform: translateY(0);
+		-moz-ransform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+	}
+
+	#main-nav.open_menu{
+		opacity: 1;
+		display: block;
+		transform: translateY(40px);
+		-webkit-transform: translateY(40px);
+		-moz-ransform: translateY(40px);
+		-ms-transform: translateY(40px);
+		-o-transform: translateY(40px);
+	}
+
+	#main-nav.nav_index{
+		background: rgba(249,83,83,.8);
+	}
+
+	#actions #map.none {
+		margin-left: 50px;
+	}
+
+	#actions .decale {
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		-ms-transform: translateX(0);
+	}
+
+	#cause {
+		  margin-left: 50px;
+		    width: 40%;
+	}
+
+	#provinces{
+		top: 80%;
+	}
+
+	#actions section img {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	#actions section .info {
+  		width: 90%;
+ 	 	margin-left: 0;
+	}
+
+	#actions section {
+		margin-left: 20px;
+	}
+
+	#actions section .info p {
+  		width: 90%;
+	}
+
+	.close {
+		margin-top: -125%;
+	}
+
+	#actions .choix_2 {
+		margin-left: 20px;
+	}
+
+	.f_right {
+	
+	  float: left;
+	  clear: both;
+	}
+
+	.f_left, .f_right {
+		margin-left: 20px;
+		  width: 85%;
+	}
+
+	.demarche section {
+		width: 100%;
+	}
+
+	#comment {
+		float: left;
+	}
+
+	#decor_mains {
+		width: 100%;
+		background-position: -100px -200px;
+	}
+
+	.inscription, #bloc_chat {
+		width: 100%;
+	}
+
+	#retour {
+		margin-top: 3px;
+	}
+
+	#partenaires{
+		width: 100%;
+	}
+
+
+	#chat_ico{
+		cursor: pointer;
+		display: block;
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+
+		transition: .2s ease-out;
+		  -webkit-transition: .2s ease-out;
+		  -moz-transition: .2s ease-out;
+		  -ms-transition: .2s ease-out;
+		  -o-transition: .2s ease-out;
+	}
+
+	#chat_ico.deplace{
+		transform: translateX(200px);
+		-webkit-transform: translateX(200px);
+		-moz-transform: translateX(200px);
+		-ms-transform: translateX(200px);
+		-o-transform: translateX(200px);
+	}
+
+
+	#statut_bar{
+		  transform: translateX(-90%);
+		  -webkit-transform: translateX(-90%);
+		  -moz-transform: translateX(-90%);
+		  -ms-transform: translateX(-90%);
+		  -o-transform: translateX(-90%);
+
+		  transition: .2s ease-out;
+		  -webkit-transition: .2s ease-out;
+		  -moz-transition: .2s ease-out;
+		  -ms-transition: .2s ease-out;
+		  -o-transition: .2s ease-out;
+	}
+
+	#statut_bar.open_bar{
+		 transform: translateX(0);
+		  -webkit-transform: translateX(0);
+		  -moz-transform: translateX(0);
+		  -ms-transform: translateX(0);
+		  -o-transform: translateX(0);
+	}
+
+	.statut {
+		position: absolute;
+		width: 225px;
+		z-index: 9;
+		height: calc(100% - 150px);
+	}
+
+	.fenetre_message{
+		width: 100%;
+	}
+
+	#fenetre_message{
+		transform: translateX(0);
+		  -webkit-transform: translateX(0);
+		  -moz-transform: translateX(0);
+		  -ms-transform: translateX(0);
+		  -o-transform: translateX(0);
+
+		  transition: .2s ease-out;
+		  -webkit-transition: .2s ease-out;
+		  -moz-transition: .2s ease-out;
+		  -ms-transition: .2s ease-out;
+		  -o-transition: .2s ease-out;
+	}
+
+	#fenetre_message.open_fenetre{
+		transform: translateX(225px);
+		  -webkit-transform: translateX(225px);
+		  -moz-transform: translateX(225px);
+		  -ms-transform: translateX(225px);
+		  -o-transform: translateX(225px);
+	}
+
+	#messages, #messages_prive {
+		left: 5%;
+	}
+
+	#compte section {
+
+	  margin-left: 10%;
+
+	}
+
+
+}
+
+
+@media screen and (max-width: 600px){
+	#main-nav {
+		width: 85%;
+	}
+
+	#accueil .info p{
+		width: 85%;
+	}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+	
+
+	header #phrase {
+	  width: 90%;
+	  left: 30px;
+	}
+
+	#accueil .action_express {
+		width: 100%;
+	}
+
+	#partie2 .bloc {
+		width: 100%;
+	}
+
+	.img_communaute{
+		height: 600px;
+	}
+
+	#inscription{
+		height: 350px;
+	}
+
+	#benevole_img {
+		background-position: -100px 0;
+	}
+
+	#inscription input {
+		float: left;
+		clear: both;
+	}
+
+	#nav_secondaire ul li a {
+		font-size: 14px;
+	}
+
+	footer p{
+		font-size: 14px;
+		margin-left: 15px;
+	}
+
+	#provinces{
+		top: 55%;
+	}
+
+	#cause{
+		width: 80%;
+	}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+	header #phrase {
+	  width: 90%;
+	  left: 30px;
+	}
+
+	#partie2 .bloc {
+		width: 100%;
+	}
+
+	#photos_public, #img_decor, #bloc_chat_img {
+		width: 46%;
+	}
+
+	.info2, #nav_secondaire, #bloc_chat_fenetre{
+		width: 54%;
+	}
+	.img_communaute{
+		height: 600px;
+	}
+
+	#inscription{
+		height: 350px;
+	}
+
+	#inscription input[type="submit"] {
+		float: right;
+		clear: both;
+	}
+
+	#accueil .info p{
+		width: 85%;
+	}
+}
+
+@media screen and (min-height: 768px) and (max-height: 768px) and (min-width: 1366px) and (max-width: 1366px){
+
+	#container{
+		overflow: auto;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
+
+
+	.img_communaute, #img_decor, #bloc_chat_img, #bloc_chat_fenetre{
+		height: 600px;
+	}
+
+	#inscription{
+		height: 350px;
+	}
+
+	#inscription label{
+		margin-bottom: 5px;
+	}
+
+	#nav_secondaire ul li, #nav_secondaire ul .middle{
+		height: 200px;
+	}
+
+	#inscription input {
+		float: left;
+		clear: both;
+	}
+
+	.public ul li:before {
+		top: 0px;
+		left: -35px;
+		font-size: 21px;
+	}
+
+	#nav_secondaire ul li{
+		font-size: 14px;
+	}
+
+	.public ul{
+		padding: 0 0 0 35px;
+	}
+
+	.public h3{
+		margin-bottom: 25px;
+	}
+
+	#accueil .info:hover .hand_1 {
+		  left: 25%;
+	}
+
+	#benevole_img {
+		background-position: -100px 0;
+	}
+
+	#oxfam {
+		background-position: -150px 0;
+	}
+
+	#cause {
+		margin-left: 50px;
+  		width: 55%
+	}
+
+	#actions .decale {
+		  margin-top: -40px;
+		transform: translateX(10%);
+		-webkit-transform: translateX(10%);
+		-moz-transform: translateX(10%);
+		-o-transform: translateX(10%);
+		-ms-transform: translateX(10%);
+	}
+
+	#provinces {
+		top: 70%;
+	}
+
+	.demarche section {
+		width: 37.5%;
+}
+
+
+	}
+
+}

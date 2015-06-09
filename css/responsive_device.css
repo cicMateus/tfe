@@ -1,0 +1,103 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+
+	#container{
+		overflow: visible;
+	}
+	
+	header.bg{
+
+		background: url(../img/header2.jpg) no-repeat center; 
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  		-ms-background-size: cover; 
+  		-moz-background-size: cover; 
+  		-o-background-size: cover; 
+  		background-size: cover; /* version standardisée */
+	}
+
+	#accueil .info:hover{ 
+
+		transform: translateY(65%);
+		-webkit-transform: translateY(65%);
+		-moz-transform: translateY(65%);
+		-ms-transform: translateY(65%);
+		-o-transform: translateY(65%);
+	}
+
+	footer p{
+		margin-left: 20px;
+		width: 44%;
+		margin-right: 0;
+	}
+
+	#compte div{
+		width: 500px;
+	}
+
+	#fb::before{
+		color: #F0A254;
+	}
+
+	#twit::before{
+		color: #F0A254;
+	}
+
+	footer a{
+		color: #F0A254;
+	}
+
+	#actions .retrait{
+		left: 60%;
+
+
+	}
+
+	#provinces{
+		top: 40%;
+	}
+
+	#messages, #messages_prive{
+		left: 20%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+	#cause{
+		width: 40%;
+	}
+
+	#info_footer{
+		width: 100%;
+	}
+
+	#compte section{
+		margin-left: 60px; 
+		margin-right: 0;
+	}
+
+	#compte div{
+		width: 400px;
+
+	}
+
+	#compte label{
+		width: 150px;
+	}
+
+	#actions .retrait{
+		left: 40%;
+
+
+	}
+
+	#provinces{
+		top: 65%;
+		left: 5%;
+	}
+
+	#messages, #messages_prive{
+		left: 15%;
+	}
+}
+
+ 
