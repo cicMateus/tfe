@@ -1,2 +1,2 @@
 # tfe
-Travail fin d'études HEAJ WebDesign &amp; Multimedia
+Travail de fin d'étude HEAJ WebDesign &amp; Multimedia
