@@ -1,5 +1,5 @@
 <?php 
-require_once('config2.php'); 
+require_once('config.php'); 
 ?>
 
 
@@ -97,7 +97,7 @@ require_once('config2.php');
 
 					<div class="form_div border_bottom">
 						<label class="message" for="message">Message</label>
-						<textarea name="message" placeholder="ce champs est facultive, utilise-le pour des éventuelles questions..."></textarea>
+						<textarea name="message" placeholder="ce champ est facultatif, utilise-le pour des éventuelles questions..."></textarea>
 					</div>
 
 					<input type="submit" name="submit" value="Envoyer">

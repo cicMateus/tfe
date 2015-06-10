@@ -1,5 +1,5 @@
 <?php
-	require_once("config2.php");	/*include ta db*/
+	require_once("config.php");	/*include ta db*/
 	session_start();
 	
 	if($_POST)

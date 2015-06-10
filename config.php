@@ -1,15 +1,11 @@
 <?php
 
-/******************************************************
-----------------Configuration Obligatoire--------------
-Veuillez modifier les variables ci-dessous pour que l'
-espace membre puisse fonctionner correctement.
-******************************************************/
+
 
 $host = "localhost";
-$dbname = "tfe";
-$user = "root";
-$password = "root";
+$dbname = "cindymateus_design_tfe";
+$user = "cindymateus-desi";
+$password = "SncAKtiSijocybxG";
 try
 {
 	$bdd = new PDO('mysql:host=' . $host . ';dbname=' . $dbname . ';charset=UTF8', $user, $password);
@@ -17,8 +13,6 @@ try
 {
 	die('Error : '.$e->getMessage());
 }
-
-
 
 
 ?>

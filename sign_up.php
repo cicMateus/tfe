@@ -1,5 +1,5 @@
 <?php
-require_once('config2.php');
+require_once('config.php');
 include ('function.php');
 
 $ok = "Merci pour votre inscription.</br>Un e-mail de confirmation vous sera envoyé.";

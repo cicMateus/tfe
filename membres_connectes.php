@@ -1,5 +1,5 @@
 <?php
-	require_once("config2.php");	/*include ta db*/
+	require_once("config.php");	/*include ta db*/
 	$membres = array(
 		'membres_connectes' =>array()
 		);	/*prépare la variable qui va etre changée en json pour passer les données à js*/
